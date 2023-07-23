@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.a7dev.domain.entity.ReposModel
 import com.a7dev.domain.usecase.GetMostStarredRepos
+import com.a7dev.moststarredgithubrepos_cleanarchitecture.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -20,16 +21,23 @@ class ReposViewModel @Inject constructor (private val getMostStarredReposUseCase
 
     private val _mostStarredRepos: MutableStateFlow<ReposModel?> = MutableStateFlow(null)
     val mostStarredRepos : StateFlow<ReposModel?> = _mostStarredRepos
+    
     private val _sort = MutableLiveData<String>("descending")
     val sort: LiveData<String>
         get() = _sort
 
+    private val _imageUrl = MutableLiveData<Int>(R.drawable.ic_down)
+    val imageUrl: LiveData<Int>
+        get() = _imageUrl
+
     fun onSortMethodChange() {
         if(_sort.value.equals("descending")){
             _sort.value = "ascending"
+            _imageUrl.value = R.drawable.ic_up
             getMostStarredRepositories(order = "asc")
         }else {
             _sort.value = "descending"
+            _imageUrl.value = R.drawable.ic_down
             getMostStarredRepositories(order = "desc")
         }
     }
