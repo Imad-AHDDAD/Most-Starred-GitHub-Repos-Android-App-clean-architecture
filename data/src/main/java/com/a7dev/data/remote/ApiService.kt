@@ -16,7 +16,7 @@ interface ApiService {
      * @return Call<ReposModel>
      */
     @GET("repositories")
-    fun getMostStarredRepos(
+    suspend fun getMostStarredRepos(
         @Query("q") q: String?,
         @Query("sort") sort: String?,
         @Query("order") order: String?,

@@ -4,7 +4,7 @@ import com.a7dev.domain.entity.ReposModel
 import com.a7dev.domain.repo.Repo
 
 class RepoImpl(private val apiService: ApiService) : Repo {
-    override fun getMostStarredRepositoriesFromGithubApi(
+    override suspend fun getMostStarredRepositoriesFromGithubApi(
         q: String?,
         sort: String?,
         order: String?,

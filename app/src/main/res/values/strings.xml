@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">MostStarredGithubRepos-cleanArchitecture</string>
+    <string name="app_name">Most Starred Github Repos - clean architecture</string>
+    <string name="settings">Settings</string>
+    <string name="trending_repos">Trending Repos</string>
+    <string name="trending">Trending</string>
+    <string name="no_internet">No Internet Connection !</string>
+    <string name="please_check_your_internet_connection_and_try_again">Please check your internet connection and try again</string>
+    <string name="try_again">Try again</string>
+    <string name="sort_result">Sort result</string>
+    <string name="searching_for_most_starred_repos">Searching for most starred repos…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

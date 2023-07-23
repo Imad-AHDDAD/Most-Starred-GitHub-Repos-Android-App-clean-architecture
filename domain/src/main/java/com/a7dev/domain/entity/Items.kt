@@ -1,7 +1,5 @@
 package com.a7dev.domain.entity
 
-import com.a7dev.mobilecodingchallenge_moststarredgithubrepos.data.entities.Owners
-
 /**
  * Items Class
  * @author Imad AHDDAD
