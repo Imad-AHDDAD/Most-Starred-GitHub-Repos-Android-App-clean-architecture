@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Most Starred Github Repos - clean architecture</string>
+    <string name="app_name">Most Starred Github Repos</string>
     <string name="settings">Settings</string>
     <string name="trending_repos">Trending Repos</string>
     <string name="trending">Trending</string>
