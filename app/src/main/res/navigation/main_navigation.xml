@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/reposFragment">
+
+    <fragment
+        android:id="@+id/reposFragment"
+        android:name="com.a7dev.moststarredgithubrepos_cleanarchitecture.ui.getMostStarredRepos.ReposFragment"
+        android:label="@string/trending_repos"
+        tools:layout="@layout/fragment_repos" />
+    <fragment
+        android:id="@+id/settingsFragment2"
+        android:name="com.a7dev.moststarredgithubrepos_cleanarchitecture.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
