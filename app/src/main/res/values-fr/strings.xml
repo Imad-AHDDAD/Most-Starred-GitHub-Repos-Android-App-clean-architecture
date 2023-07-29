@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Most Starred Github Repos</string>
+    <string name="settings">Paramètres</string>
+    <string name="trending_repos">Tendance</string>
+    <string name="trending">Tendance</string>
+    <string name="no_internet">Vous n\'avez pas de connexion Internet</string>
+    <string name="please_check_your_internet_connection_and_try_again">Merci de vérifier votre connexion Internet</string>
+    <string name="try_again">Réessayer</string>
+    <string name="sort_result">trier les résultats</string>
+    <string name="searching_for_most_starred_repos">Recherche de repos…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Langue</string>
+    <string name="change_application_language">Changer la langue de l\'application</string>
+    <string name="display_mode">Thème</string>
+    <string name="change_language">Changer la langue</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="change_theme">Changer le thème</string>
+    <string name="light">Light</string>
+    <string name="dark">Sombre</string>
+</resources>
