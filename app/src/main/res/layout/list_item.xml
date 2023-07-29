@@ -10,7 +10,7 @@
     app:cardCornerRadius="8dp"
     android:foreground="?android:attr/selectableItemBackground"
     android:clickable="true"
-    >
+    android:focusable="true">
 
     <LinearLayout
         android:layout_width="match_parent"

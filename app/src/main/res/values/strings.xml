@@ -10,4 +10,13 @@
     <string name="searching_for_most_starred_repos">Searching for repos…</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Language</string>
+    <string name="change_application_language">Change application language</string>
+    <string name="display_mode">Display Mode</string>
+    <string name="change_language">Change Language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="change_theme">Change theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
 </resources>
